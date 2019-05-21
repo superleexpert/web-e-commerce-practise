@@ -19,3 +19,20 @@
 .shopCar{width: 145px; height: 35px; background-color: #ff8c00; margin-top: 23px; font: 14px/35px "Microsoft YaHei", "微软雅黑"; color: #fff; margin-right: 59px}
 .shopText{height: 100%; width: 87px; border-right: #e27a00 solid 1px; background: url(../images/shaoIcon.jpg) 10px center no-repeat; text-indent: 40px}
 .shopNum{width: 27px; height: 35px; border-left: #ff9c01 solid 1px; background: url(../images/sj.jpg) 33px center no-repeat; text-align: right; padding-right: 29px}
+/* 导航 */
+.navBox{height: 35px; background-color: #1369C0; color: #fff;}
+.shopClass{width: 190px; position: relative;}
+.shopClass h3{text-align: center;  line-height: 35px;}
+.shopClass i{width: 11px; height: 7px; background: url(../images/down.jpg) left center no-repeat; display: inline-block; margin-left: 11px}
+.nav, .shopClass{font-family: "Microsoft YaHei", "微软雅黑"}
+.nav{line-height: 35px}
+.nav li{float: left;}
+.nav a{height: 35px; display: inline-block; padding: 0 35px; color: #fff;}
+.nav .active{background-color: #4593fd;}
+/* 商品列表 */
+.shopClass_show{background-color: #4593fd; position: absolute; width: 100%}
+.shopClass_item{padding: 14px 10px; border-bottom: #3487f2 solid 1px; border-top: #5aa1fe solid 1px;}
+.shopClass_item dt{height: 22px; background: url(../images/shop_sj.png) right center no-repeat}
+.shopClass_item .b{font: 14px/1 "Microsoft YaHei", "微软雅黑"}
+.shopClass_item a{color: #fff;}
+.shopClass_item .aLink{width: 48px; height: 20px; background: url(../images/aLink_bg.png) left center no-repeat; display: inline-block; text-align: center;text-decoration: underline}
